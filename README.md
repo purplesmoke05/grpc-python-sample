@@ -16,19 +16,15 @@ $ cd grpc-python-sample
 $ pip install -r requirements.txt
 
 $ make build```
-
-
 ### Use
 
-
 #### in one terminal
-
 
 ```bash
 $ python protos/server.py```
 
 #### in the other terminal
-
+  
 ```bash
 $ python protos/client.py
 
