@@ -1,0 +1,21 @@
+syntax = "proto3";
+
+import "google/protobuf/empty.proto";
+
+service SampleServer {
+  rpc Test(Ping) returns (Pong) {}
+  rpc Ding(google.protobuf.Empty) returns (google.protobuf.Empty) {}
+}
+
+message Fuga {
+  string hago = 1;
+}
+
+message Ping {
+  string hoge = 1;
+  repeated Fuga fugas = 2;
+}
+
+message Pong {
+  string hage = 1;
+}
