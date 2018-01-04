@@ -15,16 +15,16 @@ $ cd grpc-python-sample
 
 $ pip install -r requirements.txt
 
-$ make build```  
-
+$ make build
+```  
 
 ### Use
 
 #### in one terminal
 
 ```bash
-$ python protos/server.py```  
-
+$ python protos/server.py
+```  
 
 #### in the other terminal
 
@@ -38,4 +38,3 @@ hage: "me too"
 ----- client is sending Ding to server -----
 (Empty)
 ------------- response returned ------------```  
-  
