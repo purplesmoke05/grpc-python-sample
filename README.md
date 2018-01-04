@@ -17,9 +17,12 @@ $ pip install -r requirements.txt
 
 $ make build```
 
+
 ### Use
 
+
 #### in one terminal
+
 
 ```bash
 $ python protos/server.py```
