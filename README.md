@@ -22,8 +22,7 @@ $ make build```
 #### in one terminal
 
 ```bash
-$ python protos/server.py
-```
+$ python protos/server.py```
 
 #### in the other terminal
 
